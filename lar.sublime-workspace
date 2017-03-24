@@ -1,0 +1,1021 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ar",
+				"arResult"
+			],
+			[
+				"json",
+				"json_decode"
+			],
+			[
+				"AP",
+				"API_URL"
+			],
+			[
+				"_",
+				"_POST"
+			],
+			[
+				"add",
+				"addrText"
+			],
+			[
+				"user",
+				"user_id"
+			],
+			[
+				"if",
+				"if	if …"
+			],
+			[
+				"arr",
+				"array"
+			],
+			[
+				"cons",
+				"const"
+			],
+			[
+				"count",
+				"COUNT"
+			],
+			[
+				"unde",
+				"undergradstudents"
+			],
+			[
+				"grad",
+				"gradstudents"
+			],
+			[
+				"fac",
+				"faculty"
+			],
+			[
+				"gra",
+				"grad"
+			],
+			[
+				"st",
+				"stars"
+			],
+			[
+				"s",
+				"starid"
+			],
+			[
+				"plane",
+				"planets"
+			],
+			[
+				"getCa",
+				"getCategoryDescriptions"
+			],
+			[
+				"model",
+				"model_catalog_category"
+			],
+			[
+				"type",
+				"typeApi"
+			],
+			[
+				"qu",
+				"quantity"
+			],
+			[
+				"import",
+				"import	keyword"
+			],
+			[
+				"pay",
+				"paymentCollection"
+			],
+			[
+				"de",
+				"defenceValue"
+			],
+			[
+				"melee",
+				"melee_defence"
+			],
+			[
+				"armour",
+				"armourValue"
+			],
+			[
+				"shiel",
+				"shield"
+			],
+			[
+				"land",
+				"landUnit"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"sql",
+				"sqlColNames"
+			],
+			[
+				"fget",
+				"fgetcsv"
+			],
+			[
+				"for",
+				"for	for …"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "resources/views/welcome.blade.php",
+			"settings":
+			{
+				"buffer_size": 4860,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "json ответ передать номер загона. Искать по ИД, добавить овцу\n\n42970.764 = 7734.7368\n210895.264 = 37961.1468\n\n42970.764 = 42970.76 * 0,18 = 7734.7368 = 7734.74\n210895.264 = 210895.26 * 0,18 = 37961.1468 = 37961.15\n\n42128.15 = 42928.58485 = 42928.58 * 0,18 = 7727.1444\n1.019",
+			"settings":
+			{
+				"buffer_size": 273,
+				"line_ending": "Windows",
+				"name": "json ответ передать номер загона. Искать по ИД, до"
+			}
+		},
+		{
+			"file": "/C/Users/hp-power/Desktop/Temp/primer.csv",
+			"settings":
+			{
+				"buffer_size": 202,
+				"line_ending": "Windows",
+				"name": "Название компании; ИНН Компании; Номер договора; Д"
+			}
+		},
+		{
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/openserver/userdata/temp/scp46217/home/bitrix/www/upload/1c_invoice/agreements.csv",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/hp-power/AppData/Local/Temp/Rar$DIa0.213/defines.lua",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "",
+			"file": "/C/Users/hp-power/AppData/Local/Temp/Rar$DIa0.885/defines.lua",
+			"file_size": -1,
+			"file_write_time": -1,
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "routes/api.php",
+			"settings":
+			{
+				"buffer_size": 528,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "routes/web.php",
+			"settings":
+			{
+				"buffer_size": 2668,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": ".env",
+			"settings":
+			{
+				"buffer_size": 458,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "config/database.php",
+			"settings":
+			{
+				"buffer_size": 3510,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "database/lar.sqlite",
+			"settings":
+			{
+				"buffer_size": 25600,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 196.0,
+		"selected_items":
+		[
+			[
+				"pack ins",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"pac re",
+				"Package Control: Remove Package"
+			],
+			[
+				"pac ins",
+				"Package Control: Install Package"
+			],
+			[
+				"set s jav",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"set s javasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"set s c++",
+				"Set Syntax: C++"
+			],
+			[
+				"Package Control: re",
+				"Package Control: Remove Package"
+			],
+			[
+				"set s sq",
+				"Set Syntax: SQL"
+			],
+			[
+				"set",
+				"Set Syntax: PHP"
+			],
+			[
+				"set s php",
+				"Set Syntax: PHP"
+			],
+			[
+				"set s p",
+				"Set Syntax: PHP"
+			],
+			[
+				"se",
+				"Set Syntax: PHP"
+			],
+			[
+				"set s ht",
+				"Set Syntax: HTML"
+			],
+			[
+				"set s js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"set s t",
+				"Set Syntax: TypeScript"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Preferences: Browse Packages"
+			],
+			[
+				"set s html",
+				"Set Syntax: HTML"
+			],
+			[
+				"set sy php",
+				"Set Syntax: PHP"
+			],
+			[
+				"set syn php",
+				"Set Syntax: PHP"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 146.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/openserver/modules/system/html/openserver/adminer/index.php",
+		"/D/OpenServer/domains/lar.lc/config/database.php",
+		"/C/Users/hp-power/AppData/Local/Temp/Rar$DIa0.251/defines.lua",
+		"/D/openserver/userdata/temp/scp56905/uk-bristol.ru/public_html/service/emergency_service/index.php",
+		"/D/openserver/userdata/temp/scp12937/public_html/service/emergency_service/index.php",
+		"/D/openserver/userdata/temp/scp12417/uk-bristol.ru/public_html/service/emergency_service/index.php",
+		"/D/openserver/userdata/temp/scp10993/uk-bristol.ru/public_html/bitrix/components/tyhiro/orders.api/component.php",
+		"/D/openserver/userdata/temp/scp58457/uk-bristol.ru/public_html/bitrix/components/tyhiro/orders.api/component.php",
+		"/D/Games/Crusader Kings II The Reapers Due/common/triggered_modifiers/00_triggered_modifiers.txt",
+		"/C/Users/hp-power/AppData/Local/Temp/Rar$DIa0.963/defines.lua",
+		"/C/Users/hp-power/AppData/Local/Temp/Rar$DIa0.269/defines.lua",
+		"/D/Games/Crusader Kings II The Reapers Due/common/defines.lua",
+		"/C/Users/hp-power/AppData/Local/Temp/Rar$DIa0.616/defines.lua",
+		"/D/openserver/userdata/temp/scp35062/public_html/bitrix/components/tyhiro/orders.api/templates/.default/template.php",
+		"/D/openserver/userdata/temp/scp55687/public_html/service/emergency_service/index.php",
+		"/D/openserver/userdata/temp/scp00691/public_html/bitrix/components/tyhiro/orders.api/component.php",
+		"/D/openserver/userdata/temp/scp15131/uk-bristol.ru/public_html/bitrix/.access.php",
+		"/D/openserver/userdata/temp/scp14016/uk-bristol.ru/public_html/.htaccess",
+		"/C/Users/hp-power/AppData/Local/Temp/Rar$DIa0.059/defines.lua",
+		"/D/openserver/userdata/temp/scp22634/uk-bristol.ru/public_html/bitrix/php_interface/.htaccess",
+		"/D/openserver/userdata/temp/scp22335/uk-bristol.ru/public_html/bitrix/.htaccess",
+		"/D/openserver/userdata/temp/scp23783/uk-bristol.ru/public_html/bitrix/admin/.htaccess",
+		"/D/openserver/userdata/temp/scp34061/public_html/bitrix/templates/tszh_default/header.php",
+		"/D/openserver/userdata/temp/scp21554/uk-bristol.ru/public_html/bitrix/php_interface/init.php",
+		"/D/openserver/userdata/temp/scp16571/uk-bristol.ru/public_html/bitrix/admin/index.php",
+		"/D/openserver/userdata/temp/scp16041/uk-bristol.ru/public_html/bitrix/index.php",
+		"/D/openserver/userdata/temp/scp17091/uk-bristol.ru/public_html/.access.php",
+		"/D/openserver/userdata/temp/scp19484/uk-bristol.ru/public_html/bitrix/urlrewrite.php",
+		"/D/openserver/userdata/temp/scp19139/uk-bristol.ru/public_html/bitrix/header.php",
+		"/D/openserver/userdata/temp/scp15394/uk-bristol.ru/public_html/.htaccess_tmp",
+		"/D/openserver/userdata/temp/scp42638/public_html/bitrix/components/tyhiro/orders.api/component.php",
+		"/C/Users/hp-power/Documents/Paradox Interactive/Crusader Kings II/mod/defines.lua",
+		"/D/openserver/userdata/temp/scp58961/public_html/service/emergency_service/index.php",
+		"/D/openserver/userdata/temp/scp33783/uk-bristol.ru/public_html/service/emergency_service/index.php",
+		"/D/openserver/userdata/temp/scp38887/uk-bristol.ru/public_html/local/php_interface/init.php",
+		"/D/openserver/userdata/temp/scp53880/public_html/bitrix/components/tyhiro/orders.api/templates/.default/template.php",
+		"/D/openserver/userdata/temp/scp58003/uk-bristol.ru/public_html/bitrix/components/tyhiro/orders.api/component.php",
+		"/D/openserver/userdata/temp/scp32758/public_html/.htaccess",
+		"/D/openserver/userdata/temp/scp59612/public_html/local/php_interface/init.php",
+		"/D/openserver/userdata/temp/scp36729/uk-bristol.ru/public_html/bitrix/templates/tszh_default/header.php",
+		"/D/openserver/userdata/temp/scp43746/uk-bristol.ru/public_html/bitrix/admin/index.php",
+		"/D/openserver/userdata/temp/scp42169/uk-bristol.ru/public_html/bitrix/.settings.php",
+		"/D/openserver/userdata/temp/scp41491/uk-bristol.ru/public_html/bitrix/.access.php",
+		"/D/openserver/userdata/temp/scp40434/uk-bristol.ru/public_html/.htaccess",
+		"/D/openserver/userdata/temp/scp19808/error_log",
+		"/D/openserver/userdata/temp/scp07834/public_html/bitrix/components/tyhiro/orders.api/templates/.default/lang/ru/template.php",
+		"/D/openserver/userdata/temp/scp08213/home/propelle/mfpack.by/catalog/controller/checkout/success.php",
+		"/C/Users/hp-power/AppData/Local/Temp/Rar$DIa0.372/defines.lua",
+		"/D/openserver/userdata/temp/scp33526/home/propelle/mfpack.by/catalog/controller/checkout/checkout.php",
+		"/D/openserver/userdata/temp/scp39383/home/propelle/mfpack.by/catalog/model/account/order.php",
+		"/D/openserver/userdata/temp/scp09533/home/propelle/mfpack.by/catalog/controller/checkout/confirm.php",
+		"/D/openserver/userdata/temp/scp34279/home/propelle/mfpack.by/catalog/model/checkout/order.php",
+		"/D/OpenServer/progs/_Office/Sublime_text/Data/Packages/PHP Syntax Checker/package-metadata.json",
+		"/D/OpenServer/domains/optest.lc/vendor/autoload.php",
+		"/D/OpenServer/domains/optest.lc/phpunit.xml",
+		"/D/OpenServer/domains/optest.lc/vendor/beyondit/opencart-test-suite/tests/SampleAdminTest.php",
+		"/D/OpenServer/domains/optest.lc/vendor/beyondit/opencart-test-suite/tests/SampleTest.php",
+		"/D/OpenServer/domains/optest.lc/vendor/beyondit/opencart-test-suite/tests/Sample2Test.php",
+		"/D/openserver/userdata/temp/scp21492/public_html/service/emergency_service/index.php",
+		"/D/openserver/userdata/temp/scp32180/public_html/.htaccess",
+		"/C/Users/hp-power/AppData/Local/Temp/Rar$DIa0.410/z_filler_Better Armies.csv",
+		"/C/Users/hp-power/AppData/Local/Temp/Rar$DIa0.841/project ABCDE.csv",
+		"/D/OpenServer/domains/optest.lc/tests/model/model.php",
+		"/D/OpenServer/domains/pregnant.lc/module_files/lite_version_2_1/upload/catalog/model/module/b24_order.php",
+		"/D/OpenServer/domains/pregnant.lc/module_files/lite_version_2_3/upload/catalog/model/module/b24_order.php",
+		"/D/OpenServer/domains/pregnant.lc/module_files/lite_version_1_5/catalog/model/module/b24_order.php",
+		"/C/Users/hp-power/AppData/Roaming/Skype/My Skype Received Files/demo_yml.xml",
+		"/D/OpenServer/domains/pregnant.lc/module_files/lite_version_1_5/catalog/model/module/b24_customer.php",
+		"/C/Users/hp-power/Documents/Paradox Interactive/Crusader Kings II/mod/descriptor.mod",
+		"/D/OpenServer/domains/optest.lc/.gitignore",
+		"/D/OpenServer/domains/optest.lc/upload/config.php",
+		"/D/OpenServer/domains/optest.lc/composer.json",
+		"/D/OpenServer/domains/optest.lc/tests/phpunit/opencart/admin/controller/extension/ModificationTest.php",
+		"/D/OpenServer/domains/optest.lc/tests/phpunit/opencart/catalog/model/catalog/ProductTest.php",
+		"/D/OpenServer/domains/optest.lc/tests/phpunit/bootstrap-dist.php",
+		"/D/OpenServer/domains/optest.lc/tests/setup/config.php",
+		"/D/OpenServer/domains/optest.lc/tests/phpunit/bootstrap.php",
+		"/D/OpenServer/domains/optest.lc/tests/phpunit/vendor/openbaypro/opencart-test-suite/src/OpenCartTest.php",
+		"/D/OpenServer/domains/optest.lc/tests/phpunit/composer.json",
+		"/D/OpenServer/domains/optest.lc/tests/phpmd/phpmd.xml",
+		"/D/OpenServer/domains/optest.lc/vendor/beyondit/opencart-test-suite/src/upload/catalog/controller/startup/test_startup.php",
+		"/D/OpenServer/domains/optest.lc/upload/phpunit.xml",
+		"/D/OpenServer/domains/optest.lc/tests/setup/install.php",
+		"/C/Users/hp-power/Documents/Paradox Interactive/Crusader Kings II/mod/ck2_rus_lite.mod",
+		"/C/Users/hp-power/AppData/Local/Temp/Rar$DIa0.574/b24_apipro.php",
+		"/D/openserver/userdata/temp/scp34963/public_html/catalog/controller/checkout/simplecheckout.php",
+		"/D/OpenServer/backup/dump_script.php",
+		"/D/openserver/userdata/temp/scp22341/public_html/parser/config.php",
+		"/D/openserver/userdata/temp/scp22678/public_html/dump_script.php",
+		"/D/OpenServer/domains/gmarket.kz/config.php",
+		"/D/OpenServer/domains/gmarket.kz/admin/config.php",
+		"/D/OpenServer/domains/gmarket.lc/system/storage/modification/system/engine/action.php",
+		"/D/openserver/userdata/temp/scp53518/public_html/catalog/model/module/b24_order.php",
+		"/C/Users/hp-power/AppData/Local/Temp/Rar$DIa0.279/backup-14-02-2017.sql",
+		"/D/openserver/userdata/temp/scp18444/public_html/parser2/config.php",
+		"/D/openserver/userdata/temp/scp12491/public_html/parser2/opencart_mirseifov_cats.php",
+		"/D/openserver/userdata/temp/scp52247/public_html/parser/opencart_hatber_cats.php",
+		"/D/openserver/userdata/temp/scp12176/public_html/b24_api/include/config.php",
+		"/D/OpenServer/domains/pregnant.lc/module_files/.gitignore",
+		"/D/openserver/userdata/temp/scp31688/public_html/system/storage/modification/system/engine/action.php",
+		"/D/openserver/userdata/temp/scp32542/public_html/info.php",
+		"/D/OpenServer/domains/pregnant.lc/module_files/lite_version_2_1/lite_version_encoded/gmarket.kz/upload/admin/controller/module/b24_apipro.php",
+		"/D/OpenServer/domains/pregnant.lc/module_files/lite_version_2_1/lite_version_encoded/gmarket.kz/upload/catalog/model/module/b24_customer.php",
+		"/D/OpenServer/domains/pregnant.lc/module_files/lite_version_2_1/lite_version_encoded/gmarket.kz/upload/catalog/model/module/b24_order.php",
+		"/C/Users/hp-power/AppData/Local/Temp/Rar$DIa0.629/b24_apipro.php",
+		"/C/Users/hp-power/AppData/Local/Temp/Rar$DIa0.954/b24_apipro.php",
+		"/D/openserver/userdata/temp/scp23573/public_html/catalog/model/module/b24_order.php",
+		"/D/openserver/userdata/temp/scp17795/public_html/parser/func.php",
+		"/D/openserver/userdata/temp/scp17452/public_html/parser/config.php",
+		"/D/openserver/userdata/temp/scp09142/test.farmacia-rm.ru/www/index.php",
+		"/C/Users/hp-power/AppData/Local/Temp/Rar$DIa0.502/b24_customer.php",
+		"/C/Users/hp-power/Documents/Job Resume/Алмат Жандаулетов - Sheet1.csv",
+		"/C/Users/hp-power/Documents/Job Resume/code_sample.php",
+		"/D/OpenServer/domains/pregnant.lc/module_files/lite_version_1_5/admin/controller/module/b24_apipro.php",
+		"/D/OpenServer/domains/pregnant.lc/module_files/lite_version_1_5/encoded_broker/admin/controller/module/b24_apipro.php",
+		"/D/OpenServer/domains/pregnant.lc/module_files/lite_version_2_1/lite_version_encoded/encode/admin/controller/module/b24_apipro.php",
+		"/D/openserver/userdata/temp/scp55983/gmarket.kz/system/storage/modification/system/engine/action.php",
+		"/D/openserver/userdata/temp/scp26150/gmarket.kz/parser/func.php",
+		"/D/openserver/userdata/temp/scp15184/test.farmacia-rm.ru/www/script/get_loading_property.php",
+		"/D/openserver/userdata/temp/scp11933/test.farmacia-rm.ru/www/clear_price.php",
+		"/D/Downloads/startbootstrap-creative-gh-pages/startbootstrap-creative-gh-pages/gulpfile.js",
+		"/C/Users/hp-power/AppData/Local/Temp/Rar$DIa0.962/install.xml",
+		"/D/OpenServer/domains/pregnant.lc/module_files/lite_version_2_3/encode_aromatoff/b24_api/include/config.php",
+		"/D/OpenServer/domains/pregnant.lc/module_files/lite_version_1_5/vqmod/xml/vqmod_b24_apipro.xml",
+		"/D/OpenServer/backup/Pregnant/lite_version_1_5/admin/view/template/module/b24_apipro.tpl",
+		"/D/OpenServer/domains/pregnant.lc/module_files/lite_version_2_3/encoded/admin/controller/extension/module/b24_apipro.php",
+		"/D/openserver/userdata/temp/scp08886/price.farmacia-rm.ru/www/index.php",
+		"/D/OpenServer/domains/pregnant.lc/module_files/lite_version_2_1/install.xml"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"warsc",
+			"zagaon",
+			"Sheep1",
+			"brother",
+			"-40",
+			"siege",
+			"warscore",
+			"outnum",
+			"siege",
+			"warsc",
+			"morale",
+			"warsco",
+			"warsc",
+			"var_d",
+			"var",
+			"user_id",
+			"modelIDs",
+			"];\n",
+			"order_op",
+			"mail",
+			"moral",
+			"morale",
+			"troop_kil",
+			"mili",
+			"load",
+			"'/home/gmarket/public_html",
+			"'/home/gmarket/public_html/",
+			"post.",
+			"testcount",
+			"mfpack.propeller.by",
+			"'/home/propelle/public_html/mfpack.propeller.by",
+			"'/home/propelle/public_html/mfpack.lc",
+			"mfpack.propeller.by",
+			"kps-av@elektro.mail.ru",
+			"электрони",
+			"максценте",
+			"file",
+			"Энергокабель ",
+			"Энергокабель",
+			"selected-tab",
+			"is_courtier = no",
+			"better...",
+			"bett",
+			"give_title",
+			"unem",
+			"minister",
+			"\"EVTNAME13003\"",
+			"колон",
+			"50 ",
+			"4010",
+			";",
+			"loadSec",
+			"pay",
+			"addC",
+			"add",
+			"eve",
+			"QueryInternal",
+			"');\n",
+			" $select = array(\"ID\", \"NOTES\"",
+			" getXmlBasketItems(",
+			"xmlBas",
+			"39",
+			"бан",
+			"малыш",
+			"крем",
+			"\" . DB_PREFIX . \"",
+			"model.php",
+			"http://test.adel-omsk.ru/",
+			"'/home/adelomsk/public_html/test/",
+			"$_SERVER['DOCUMENT_ROOT'] . '",
+			"'/home/adelomsk/public_html/test/",
+			"trigger",
+			"tab",
+			"'];\n",
+			"id",
+			"');\n",
+			"call",
+			"$_POST['quantity']",
+			"currency",
+			"mail",
+			"addres",
+			"ACCOUNT_NUMBER",
+			"SALE_HPS_BILL_SELLER_TITLE",
+			"счет",
+			"ответственный",
+			"счет",
+			"att_bld_eastern_sassanid_military_infantry_1",
+			"onager",
+			"лагерь ополчения",
+			"loot",
+			"sack",
+			"raze",
+			"sack",
+			"разрушение",
+			"');\n",
+			"alma_Sand_main_units_mod",
+			"alma_Sand_main_units",
+			"');\n",
+			"alma_up1_main_units",
+			"Sand_land_units",
+			"];\n",
+			"armor",
+			"');\n",
+			"check"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"zagon",
+			"$_SERVER['DOCUMENT_ROOT'] . '",
+			"mfpack.lc",
+			"$_SERVER['DOCUMENT_ROOT'] . '",
+			"mfpack.lc",
+			"\", dbFailOnError",
+			"oc_",
+			"http://tpregnant.lc/",
+			"$_SERVER['DOCUMENT_ROOT'] . '/",
+			"$_SERVER['DOCUMENT_ROOT'] . '",
+			"$quantity",
+			"armour"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 8,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "resources/views/welcome.blade.php",
+					"settings":
+					{
+						"buffer_size": 4860,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 162.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"settings":
+					{
+						"buffer_size": 273,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								213,
+								213
+							]
+						],
+						"settings":
+						{
+							"auto_name": "json ответ передать номер загона. Искать по ИД, до",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/Users/hp-power/Desktop/Temp/primer.csv",
+					"settings":
+					{
+						"buffer_size": 202,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								156,
+								156
+							]
+						],
+						"settings":
+						{
+							"auto_name": "Название компании; ИНН Компании; Номер договора; Д",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/D/openserver/userdata/temp/scp46217/home/bitrix/www/upload/1c_invoice/agreements.csv",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/C/Users/hp-power/AppData/Local/Temp/Rar$DIa0.213/defines.lua",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Lua/Lua.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 21647.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/C/Users/hp-power/AppData/Local/Temp/Rar$DIa0.885/defines.lua",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Lua/Lua.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 20999.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "routes/api.php",
+					"settings":
+					{
+						"buffer_size": 528,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								528,
+								528
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "routes/web.php",
+					"settings":
+					{
+						"buffer_size": 2668,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": ".env",
+					"settings":
+					{
+						"buffer_size": 458,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								156,
+								156
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "config/database.php",
+					"settings":
+					{
+						"buffer_size": 3510,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1353,
+								1353
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "database/lar.sqlite",
+					"settings":
+					{
+						"buffer_size": 25600,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"rweb",
+				"routes/web.php"
+			],
+			[
+				"not",
+				"/C/Users/hp-power/Documents/notes.php"
+			],
+			[
+				"index",
+				"/D/openserver/domains/mod.lc/index.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 188.0,
+	"status_bar_visible": true
+}
