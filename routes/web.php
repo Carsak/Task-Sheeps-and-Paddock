@@ -21,6 +21,6 @@ Route::get('/sleep/', 'HomeController@sleep');
 
 Route::get('/stat/', 'HomeController@stat');
 
-Route::get('/reset/', function(){
+Route::get('/reset/', function () {
 	Sheep::reset();
 });

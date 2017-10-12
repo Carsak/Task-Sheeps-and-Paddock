@@ -71,29 +71,24 @@ Home page
 </div>
 </div>
 
-
-
-<?php
-//var_dump($paddock, $all);
-        ?>
 <style>
-	
-	.zagon{
-		border: 1px dashed black;
-		/*width: 20%;*/
-		overflow-y: scroll;
-		height: 12em;
-	}
 
-    form{
+    .zagon {
+        border: 1px dashed black;
+        /*width: 20%;*/
+        overflow-y: scroll;
+        height: 12em;
+    }
+
+    form {
         margin: 2em auto;
     }
 
-    form select{
+    form select {
         padding: 0.1em 1em;
     }
 
-    .info-block p{
+    .info-block p {
         padding: 1em;
     }
 
@@ -106,18 +101,18 @@ Home page
             $.ajax({
                 url: '/reproduce/',
                 dataType: 'json',
-                success : function (data) {
+                success: function (data) {
                     console.log(data);
-                    $('#paddock' + data.paddock).append('<div class="name">Sheep' +data.sheep_id+ '</div>');
+                    $('#paddock' + data.paddock).append('<div class="name">Sheep' + data.sheep_id + '</div>');
                 }
             });
         }
 
-        function sleep(){
+        function sleep() {
             $.ajax({
                 url: '/sleep/',
                 dataType: 'json',
-                success : function (data) {
+                success: function (data) {
                     console.log(data);
                     $('#sheep' + data.sleep.id).hide();
 
@@ -129,16 +124,16 @@ Home page
         $('input[type=submit]').on('click', function () {
             var cmd = $('select').val();
 
-            if(cmd == 'add'){
+            if (cmd == 'add') {
                 add();
-            }else if(cmd == 'sleep'){
+            } else if (cmd == 'sleep') {
                 sleep();
             }
 
             return false;
         });
 
-        $('#reset').on('click', function(){
+        $('#reset').on('click', function () {
             $.ajax({
                 url: '/reset',
                 success: function () {
@@ -151,22 +146,22 @@ Home page
             clearInterval(timer);
         });
 
-        var timer = setInterval(function(){
+        var timer = setInterval(function () {
             var day = localStorage.getItem('day') ? localStorage.getItem('day') : 0;
             day = parseInt(day) + 1;
             setDay(day);
 
-            if(day % 10 == 0 && day > 0){
+            if (day % 10 == 0 && day > 0) {
                 add();
             }
 
 //            if(day % 100 == 0 && day > 0){
-            if(day % 20 == 0 && day > 0){
+            if (day % 20 == 0 && day > 0) {
                 sleep();
             }
         }, 1000);
 
-        function setDay(day){
+        function setDay(day) {
             localStorage.setItem('day', day);
             $('#day').html(day);
         }

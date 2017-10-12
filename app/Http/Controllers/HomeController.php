@@ -7,21 +7,20 @@ use Illuminate\Support\Facades\DB;
 
 class HomeController extends Controller
 {
-
 	// 10 овечек рандомно селяться по 4 загонам. В загоне должно быть мин 1 овечка
 	public function welcome()
 	{
 		$total = 6;
-		
-		$paddock = [1,1,1,1];
+
+		$paddock = [1, 1, 1, 1];
 
 		// Если загоны пустые, рандомно расселяет овечек
-		if(Sheep::isPaddockEmpty()){
+		if ( Sheep::isPaddockEmpty() ) {
 			DB::beginTransaction();
 
-			while( $total > 0 ){
-				$sheep = mt_rand(1, $total);
-				$number = mt_rand(0,3);
+			while ( $total > 0 ) {
+				$sheep  = mt_rand(1, $total);
+				$number = mt_rand(0, 3);
 
 				$paddock[$number] += $sheep;
 
@@ -29,9 +28,9 @@ class HomeController extends Controller
 			}
 
 			// Запись в таблицу
-			foreach ($paddock as $key => $value){
-				for($i = 1; $i <= $value; $i++){
-					Sheep::add($key+1);
+			foreach ( $paddock as $key => $value ) {
+				for ( $i = 1; $i <= $value; $i++ ) {
+					Sheep::add($key + 1);
 				}
 			}
 
@@ -44,26 +43,26 @@ class HomeController extends Controller
 		foreach ( $all as $sheep ) {
 			$paddock[$sheep->paddock][] = $sheep->id;
 		}
-		
+
 		return view('welcome', ['paddock' => $paddock, 'all' => $all]);
 	}
-	
+
 	public function reproduce()
 	{
-		$padList = [1,2,3,4];
+		$padList    = [1, 2, 3, 4];
 		$randomList = [];
 		foreach ( $padList as $paddock ) {
 			$total = DB::table('sheep')->where([['paddock', '=', $paddock], ['active', '=', '1']])->count();
 
-			if($total >= Sheep::NumberToReproduce){
+			if ( $total >= Sheep::NumberToReproduce ) {
 				$randomList[] = $paddock;
 			}
 		}
 
 		$count = count($randomList);
-		$msg = json_encode(0);
+		$msg   = json_encode(0);
 
-		if($count > 0) {
+		if ( $count > 0 ) {
 			$index = (mt_rand(Sheep::MinPaddock, count($randomList)) - 1);
 
 			$id  = Sheep::add($randomList[$index]);
@@ -72,26 +71,26 @@ class HomeController extends Controller
 
 		echo $msg;
 	}
-	
+
 	public function sleep()
 	{
-		$id = Sheep::sleepOne();
+		$id    = Sheep::sleepOne();
 		$moved = Sheep::checkPaddock();
 
 		$msg = ['sleep' => ['id' => $id], 'moved' => $moved];
 
 		echo json_encode($msg);
 	}
-	
+
 	public function stat()
 	{
-		$all = DB::table('sheep')->latest()->count();
-		$live = DB::table('sheep')->where('active', 1)->latest()->count();
+		$all   = DB::table('sheep')->latest()->count();
+		$live  = DB::table('sheep')->where('active', 1)->latest()->count();
 		$sleep = DB::table('sheep')->where('active', 0)->latest()->count();
 
 		$min = DB::table('sheep')->select('paddock', DB::raw('COUNT(id) as total'))->groupBy('paddock')->orderBy('total')->first();
 		$max = DB::table('sheep')->select('paddock', DB::raw('COUNT(id) as total'))->groupBy('paddock')->orderBy('total', 'desc')->first();
 
-		return view('stat', ['all' => $all, 'live' => $live, 'sleep' => $sleep, 'min' => $min, 'max' =>$max]);
+		return view('stat', ['all' => $all, 'live' => $live, 'sleep' => $sleep, 'min' => $min, 'max' => $max]);
 	}
 }
