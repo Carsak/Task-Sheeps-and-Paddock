@@ -10,21 +10,20 @@ class HomeController extends Controller
 	// 10 овечек рандомно селяться по 4 загонам. В загоне должно быть мин 1 овечка
 	public function welcome()
 	{
-		$total = 6;
-
 		$paddock = [1, 1, 1, 1];
+		$count = count($paddock); // 4
+		$total = 10 - $count; // 6
 
 		// Если загоны пустые, рандомно расселяет овечек
 		if ( Sheep::isPaddockEmpty() ) {
 			DB::beginTransaction();
 
 			while ( $total > 0 ) {
-				$sheep  = mt_rand(1, $total);
+				// случайно выбираем, в какой загон расселить одну овечку
 				$number = mt_rand(0, 3);
 
-				$paddock[$number] += $sheep;
-
-				$total -= $sheep;
+				$paddock[$number] += 1;
+				$total -= 1;
 			}
 
 			// Запись в таблицу

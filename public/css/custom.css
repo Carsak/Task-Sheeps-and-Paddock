@@ -1,0 +1,26 @@
+.name {
+    display: inline-block;
+    width: 30%;
+    height: 50px;
+    background: url('/img/sheep_small.png') no-repeat;
+    background-size: contain;
+}
+
+.zagon {
+    border: 1px dashed black;
+    /*width: 20%;*/
+    overflow-y: scroll;
+    height: 12em;
+}
+
+form {
+    margin: 2em auto;
+}
+
+form select {
+    padding: 0.1em 1em;
+}
+
+.info-block p {
+    padding: 1em;
+}

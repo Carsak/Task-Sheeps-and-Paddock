@@ -35,6 +35,3 @@
 </style>
 </body>
 </html>
-
-<?php
-//var_dump($all, $min, $max, $live, $sleep);

@@ -6,10 +6,10 @@
         Home page
     </title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Latest compiled and minified CSS -->
-    {{--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">--}}
 
     <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/custom.css">
+
     <script src="/js/jquery-3.1.1.js"></script>
 </head>
 <body>
@@ -31,14 +31,13 @@
                         <div id="paddock{{ $key  }}" class="zagon">
                             {{--@for($i = 1; $i <= $value; $i++, $index++ )--}}
                             @foreach ($list as $sheepId)
-                                <div id="sheep{{ $sheepId }}" class="name">Sheep{{ $sheepId }}</div>
+                                <div id="sheep{{ $sheepId }}" class="name"></div>
                                 {{--@endfor--}}
                             @endforeach
                         </div>
                     </div>
                 @endforeach
             </fieldset>
-
 
             <div class="col-md-6">
                 <form>
@@ -65,34 +64,8 @@
                     из самой насленной</p>
             </div>
         </div>
-
-
-        {{--</form>--}}
     </div>
 </div>
-
-<style>
-
-    .zagon {
-        border: 1px dashed black;
-        /*width: 20%;*/
-        overflow-y: scroll;
-        height: 12em;
-    }
-
-    form {
-        margin: 2em auto;
-    }
-
-    form select {
-        padding: 0.1em 1em;
-    }
-
-    .info-block p {
-        padding: 1em;
-    }
-
-</style>
 
 <script>
     $(function () {
@@ -103,7 +76,9 @@
                 dataType: 'json',
                 success: function (data) {
                     console.log(data);
-                    $('#paddock' + data.paddock).append('<div class="name">Sheep' + data.sheep_id + '</div>');
+                    $('#paddock' + data.paddock).append(
+                        '<div id="sheep' + data.sheep_id + '" class="name"></div>'
+                    );
                 }
             });
         }
@@ -155,7 +130,6 @@
                 add();
             }
 
-//            if(day % 100 == 0 && day > 0){
             if (day % 20 == 0 && day > 0) {
                 sleep();
             }
